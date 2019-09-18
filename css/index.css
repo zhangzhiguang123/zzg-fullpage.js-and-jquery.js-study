@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* 第一页 */
+#one{
+    width: 1536px;
+    height: 100%;
+    background:#fadd67 url("../img/oneBigBackGround.png") center bottom;
+    /* background-size:contain; */
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+#one img:nth-child(1){
+    position: absolute;
+    right: 350px;
+    top: 80px;
+}
+#one img:nth-child(2){
+    position: absolute;
+    right: 55%;
+    bottom: 400px;
+}
+#one img:nth-child(3){
+    position:absolute;
+    right: 25%;
+    bottom: 170px;
+}
+/* 第二页 */
+#two{
+    width: 1536px;
+    height: 100%;
+    background: #84a2d4;
+    position: relative;
+}
+#two .fontimg img:first-child{
+    position: absolute;
+    top: 140px;
+    left: 38%;
+    display: block;
+    z-index: 10;
+}
+#two .fontimg img:last-child{
+    position: absolute;
+    top: 140px;
+    left: 38%;
+    opacity: 0;
+    z-index: 10;
+}
+#two .tablebox img:first-child{
+    width: 130%;
+    position: absolute;
+    bottom: 0px;
+    left: -15%;
+    z-index: 9;
+}
+#two .tablebox img:last-child{
+    position: absolute;
+    right: 555px;
+    bottom: 210px;
+    z-index: 10;
+    width:  0;
+    height: 0;
+}
+#two .searchimg img:first-child{
+    position: absolute;
+    top: 50%;
+    left:  1200px;
+    z-index: 11;
+    display: none;
+}
+#two .searchimg img:last-child{
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 43%;
+    opacity: 0;
+}
+/* 侧边栏 */
+aside>a>img{
+    position: fixed;
+    right: 100px;
+    top: 50px;
+    z-index: 20;
+}
+aside>img{
+    position: fixed;
+    right: 10%;
+    bottom:100px;
+    z-index: 20;
+}
