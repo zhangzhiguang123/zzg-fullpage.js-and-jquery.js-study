@@ -35,6 +35,25 @@
     background: #84a2d4;
     position: relative;
 }
+#two #remove{
+    position: absolute;
+    top: 292px;
+    left: 675px;
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: block;
+    opacity: 0;
+}
+#two #remove img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100px;
+    opacity: 0;
+}
 #two .fontimg img:first-child{
     position: absolute;
     top: 140px;
@@ -77,6 +96,118 @@
     top: 50%;
     left: 43%;
     opacity: 0;
+}
+/* 第三页 */
+#three{
+    width: 100%;
+    height: 100%;
+    background: #ef674d url('../img/threemainbig.png') no-repeat center bottom;
+    position: relative;
+}
+#three .colortab1{
+    position: absolute;
+    left: 807px;
+    top:58%;
+}
+#three .colortab2{
+    position: absolute;
+    left: 807px;
+    top:58%;
+    opacity: 0;
+    z-index: 1;
+}
+#three .tableimg{
+    position: absolute;
+    left: 540px;
+    opacity: 0;
+    z-index: 20;
+    top: 43%;
+}
+#three .cartbtn1{
+    position: absolute;
+    left: 807px;
+    bottom: 10%;
+    opacity: 1;
+    z-index: 1;
+}
+#three .cartbtn2{
+    position: absolute;
+    left: 807px;
+    bottom: 10%;
+    opacity: 0;
+    z-index: 2;
+}
+
+/* 第四页 */
+#four{
+    width: 100%;
+    height: 100%;
+    background: #ffeedd url(../img/fourbgbig.png) no-repeat center bottom;
+    position: relative;
+}
+#four>img{
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+#four .fontimg{
+    position: absolute;
+    top: 170px;
+    left:600px;
+    width: auto;
+}
+#four .fontimg img:first-child{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 1;
+}
+#four .fontimg img:last-child{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+
+#four .cart{
+     position: absolute;
+     left:37%;
+     bottom: 50px;
+     width: 410px;
+     height: 500px;
+}
+#four .cart img:first-child{
+    position: absolute;
+    top: 110px;
+    left: 37%;
+    opacity: 0;
+    z-index: 21;
+}
+#four .cart img:last-child{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     z-index: 22;
+}
+
+#four .adressform{
+     position: absolute;
+     width: 410px;
+     height: 300px;
+     left:37%;
+     bottom: 140px;
+     opacity: 0;
+}
+#four .adressform img:first-child{
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    z-index: 1;
+}
+#four .adressform img:last-child{
+    position: absolute;
+    right:20px;
+    top:0;
 }
 /* 侧边栏 */
 aside>a>img{
