@@ -6,4 +6,4 @@
 
 
 
-![](D:\前端历程\Afullpage项目\project-show\fp.gif)
+![演示图存放在project-show](https://raw.githubusercontent.com/zhangzhiguang123/zzg-fullpage.js-and-jquery.js-study/master/project-show/fp.gif)
